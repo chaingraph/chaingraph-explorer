@@ -15,7 +15,7 @@ class LoginComponent extends React.Component {
   render() {
     const { dispatch } = this.props;
         // redirect 
-    dispatch(updateGraphQLEndpoint('https://graph.blockmatic.io/v1/graphql"'));
+    dispatch(updateGraphQLEndpoint('https://graph.blockmatic.io/v1/graphql'));
     return (
       <div>
         {/* <div className="loginWrapper">
